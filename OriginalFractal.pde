@@ -57,10 +57,10 @@ public void myEllipseFractal(int x, int y, int siz)
   ellipse(x, y, siz/3, siz/3);
   if (siz > 7)
   {
-    myEllipseFractal(x-siz/3, y, siz/2);
-    myEllipseFractal(x+siz/3, y, siz/2);
-    myEllipseFractal(x, y-siz/3, siz/2);
-    myEllipseFractal(x, y+siz/3, siz/2);
+    myEllipseFractal(x-siz/3, y, siz/3);
+    myEllipseFractal(x+siz/3, y, siz/3);
+    myEllipseFractal(x, y-siz/3, siz/3);
+    myEllipseFractal(x, y+siz/3, siz/3);
   }
   if (siz > 10)
   {
